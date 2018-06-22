@@ -2,13 +2,20 @@
     --mainBlue: #003fcc; 
 }
 
+#warning {
+	text-align: center;
+	font-family: 'Open Sans';
+	padding: 10px 0;
+	font-size: 18px;
+	width: 100%;
+	background-color: yellow;
+}
 
 body {
 	/*border-top: 4px solid var(--mainBlue);*/
 	font-family: 'Playfair Display';
 	transition: .5s;
 	margin: 0;
-
 	padding: 0;
 }
 
@@ -17,23 +24,27 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #content {
-	width: 100%;
-	max-width: 1400px;
-	margin: 0 auto;
-	background-color: white;
+	width: 85%;
+	max-width: 1280px;
 	height: 1500px;
+	margin: 0 auto;
 }
 
 #intro-block{
 	box-sizing: border-box;
 
-	padding: 6rem 2rem;
+
+	padding: 3rem 2rem 4rem 2rem;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
 	width: 100%;
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: flex-end;
+
+	background-color: #fbfbfb;
 
 }
 
@@ -65,7 +76,7 @@ p {
 	font-family: 'Open Sans';
 	font-size: 22px;
 	font-weight: 300;
-	color: #666;
+	color: #444;
 	width: 100%;
 	text-align: justify;
 
@@ -80,7 +91,7 @@ p {
 	min-width: 160px;
 	min-height: 160px;
 
-	margin-left: 4.5rem;
+	margin-left: 2.5rem;
 
 	padding: 0 0 .5rem .5rem;
 	border-left: 5px solid var(--mainBlue);
@@ -102,43 +113,19 @@ p {
 		box-shadow:         0px 0px 3px 3px #ccc;*/
 }
 
-@media only screen and (max-width: 993px) {
-	#intro-block {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-	}
-
-	#blocktext {
-		width: 100%;
-		max-width: 100%;
-		margin-bottom: 2rem;	
-	}
-
-	#profile {
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 3rem;
-	}
-}
-
-
-
-
 
 .card {
 	border-top: 2px solid var(--mainBlue);
-	padding: 1.5rem;
-	width: 22%;
-	min-width: 150px;
+	padding: 2.5rem;
+	width: 20%;
+	min-width: 175px;
 
 	background-color: white;
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, .10);
-	margin-left: 2rem;
-	margin-right: 2rem;
-	margin-bottom: 5rem;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .05);
+	margin-right: 3rem;
+	margin-bottom: 4rem;
 	transition: .3s;
 
-	border-radius: 0 0 5px 5px;
 }
 
 .card:hover, .card-sm:hover {
@@ -156,7 +143,7 @@ p {
 
 
 .card-header {
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 400;
 	margin: 0 auto;
 	text-align: center;
@@ -179,6 +166,7 @@ p {
 	font-size: 18px;
 	text-align: center;
 	margin: 0 auto;
+	hyphens: auto; 
 }
 
 img {
@@ -192,29 +180,74 @@ img {
 
 .card-sm {
 	border-top: 2px solid var(--mainBlue);
-	padding: 1rem 1.5rem 1.5rem 1.5rem;
+	padding: 2rem;
 	width: 35%;
 
 	background-color: white;
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, .10);
-	margin-left: 2rem;
-	margin-right: 2rem;
-	margin-bottom: 3rem;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, .10);
+	margin-bottom: 2rem;
+	margin-right: 3rem;
 	transition: .3s;
 }
 
+.cardholder-header {
 
+	font-size: 45px;
+	font-family: 'Open Sans';
 
-.cardholder {
+	font-weight: 200;
+	color: black;
+	margin-bottom: 2.5rem;
+
 	box-sizing: border-box;
-
-	padding-left: 5rem;
-
-	display: flex;
-	vertical-align: top;
-	flex-wrap: wrap;
+	text-align: center;
+	width: 100%; 
 
 }
+
+.cardholder {
+
+	border-radius: 10px;
+	box-sizing: border-box;
+
+	padding-left: 3rem;
+
+	display: flex;
+	vertical-align: center;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-bottom: 2.5rem;
+
+
+}
+
+@media only screen and (max-width: 993px) {
+	#intro-block {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	#blocktext {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 2rem;	
+	}
+
+	#profile {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 3rem;
+	}
+
+	.card-sm {
+		width: 80%;
+	}
+}
+
+
+
+
 
 
 
