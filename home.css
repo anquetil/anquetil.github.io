@@ -17,6 +17,8 @@ body {
 	transition: .5s;
 	margin: 0;
 	padding: 0;
+	background-color: #fbfbfb;
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -28,13 +30,14 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 1280px;
 	height: 1500px;
 	margin: 0 auto;
+
 }
 
 #intro-block{
 	box-sizing: border-box;
 
 
-	padding: 3rem 2rem 4rem 2rem;
+	padding: 3rem 3rem 4rem 3rem;
 	margin-top: 3rem;
 	margin-bottom: 6rem;
 	width: 100%;
@@ -44,7 +47,8 @@ h1, h2, h3, h4, h5, h6{
 	flex-wrap: wrap;
 	align-items: flex-end;
 
-	background-color: #fbfbfb;
+	background-color: white;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.04);
 
 }
 
@@ -58,13 +62,12 @@ h1, h2, h3, h4, h5, h6{
 	color: var(--mainBlue);
 	font-size: 50px;
 	font-weight: 700;
-	letter-spacing: .3rem;
 }
 
 
 
 .tagline{
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 700;
 	color: black;
 	margin-bottom: 2.5rem;
@@ -78,7 +81,6 @@ p {
 	font-weight: 300;
 	color: #444;
 	width: 100%;
-	text-align: justify;
 
 	margin: 0;
 }
@@ -92,32 +94,13 @@ p {
 	min-height: 160px;
 
 	margin-left: 2.5rem;
-
-	padding: 0 0 .5rem .5rem;
-	border-left: 5px solid var(--mainBlue);
-	border-bottom: 5px solid var(--mainBlue);
-
-	
-	/*
-		
-		border-radius: 50%;
-		box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px, whitesmoke 0px -1px 0px;
-
-
-
-		border: 5px solid white;
-		border-radius: 50%;
-
-		-moz-box-shadow:    0px 0px 2px 2px #ccc;
-		-webkit-box-shadow: 0px 0px 2px 2px #ccc;
-		box-shadow:         0px 0px 3px 3px #ccc;*/
 }
 
 
 .card {
-	border-top: 2px solid var(--mainBlue);
+	border-top: 3px solid var(--mainBlue);
 	padding: 2.5rem;
-	width: 20%;
+	width: 23%;
 	min-width: 175px;
 
 	background-color: white;
@@ -166,7 +149,6 @@ p {
 	font-size: 18px;
 	text-align: center;
 	margin: 0 auto;
-	hyphens: auto; 
 }
 
 img {
