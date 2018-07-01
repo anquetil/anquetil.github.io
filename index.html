@@ -1,102 +1,85 @@
-<!DOCTYPE html>
-<html>
-	
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Martin Anquetil</title>
-		<meta name="description" content="Hey, I'm Martin! I'm currently studying Computer Science & Business at USC in Los Angeles. I'm preparing for a career in product management by building simple products and leading exciting teams!">
+---
+layout: default
+title: "Martin Anquetil"
+---
 
-		<link rel="icon" href="wave.png">
-				
-		<!-- font -->
-		<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,600" rel="stylesheet">	
+<head>
+	<meta name="description" content="Hey, I'm Martin! I'm currently studying Computer Science & Business at USC in Los Angeles. I'm preparing for a career in product management by building simple products and leading exciting teams!">
+	<link rel="stylesheet" href="style/home.css">
+</head>
+
+
+<div id="warning">This website is still a work in progress! Check back later!</div>
+<div class="upper container">
+
+	<div id="intro-block">
+		<img id="profile" src="assets/profile.jpg"/>
+		<div id="blocktext">
 			
-		<link rel="stylesheet" href="newhome.css">
+			<div  id="name">		Martin Anquetil			</div>
 
+			<p id="intro-paragraph"> 
+				Hey, I'm  Martin! I'm currently studying Computer Science & Business at USC in Los Angeles. I'm preparing for a career in <b>product management</b> by building simple products and leading exciting teams!
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="lower container">
+	<div id='projects'>
+		<div class="cardholder-header"> Projects & Activities </div>
 		
-	</head>
-	
-	<body>
-		
-		<div id="warning">This website is still a work in progress! Check back later!</div>
-		<div class="upper container">
+		<div class="cardholder">
 
-			<div id="intro-block">
-				<img id="profile" src="profile.jpg"/>
-				<div id="blocktext">
-					
-					<div  id="name">		Martin Anquetil			</div>
+			<div onclick="window.open('404.html')" class="card">
+				<img class="card-pic" src="assets/spark.jpg"/>
+				<div class ="card-header"> Spark SC </div> 
+				<div class ="card-subhead"> Jan 2017 </div> 
+				<p class="card-text">
+					Serving as president of USC's leading entrepreneurship organization!
 
-					<p id="intro-paragraph"> 
-						Hey, I'm  Martin! I'm currently studying Computer Science & Business at USC in Los Angeles. I'm preparing for a career in <b>product management</b> by building simple products and leading exciting teams!
-					</p>
-				</div>
+				</p>
+			</div>
+			
+
+			<div class="card">
+				<img class="card-pic" src="assets/palm.jpg"/>
+				<div class ="card-header"> 128 Units </div> 
+				<div class ="card-subhead"> May 2018 </div> 
+				<p class="card-text">
+					Building a product to help students better plan & track their college careers
+				</p>
 			</div>
 		</div>
 
-		<div class="lower container">
-			<div id='projects'>
-				<div class="cardholder-header"> Projects & Activities </div>
-				<div class="cardholder">
+		<div class="cardholder cardholder-sm">
+			<!--div class="card-sm">
+				<div class ="sm-header card-header"> Spotify Product Analysis</div> 
+				<p class="sm-text card-text">
+					An in-depth study of Spotify's subscription model
+				</p>
+			</div-->
 
-					<div class="card">
-						<img class="card-pic" src="spark.jpg"/>
-						<div class ="card-header"> Spark SC </div> 
-						<div class ="card-subhead"> Jan 2017 </div> 
-						<p class="card-text">
-							Serving as president of USC's leading entrepreneurship organization!
-
-						</p>
-					</div>
-
-					<div class="card">
-						<img class="card-pic" src="palm.jpg"/>
-						<div class ="card-header"> 128 Units </div> 
-						<div class ="card-subhead"> May 2018 </div> 
-						<p class="card-text">
-							Building a product to help students better plan & track their college careers
-						</p>
-					</div>
-				</div>
-
-				<div class="cardholder cardholder-sm">
-					<div class="card-sm">
-						<div class ="sm-header card-header"> Spotify Product Analysis</div> 
-						<p class="sm-text card-text">
-							An in-depth study of Spotify's subscription model
-						</p>
-					</div>
-
-					<div class="card-sm">
-						<div class ="sm-header card-header"> QueueSC </div> 
-						<p class="sm-text card-text">
-							A web app to efficiently create and join queues
-						</p>
-					</div>
-
-					<div class="card-sm">
-						<div class ="sm-header card-header"> World Cup Bracket Creator </div> 
-						<p class="sm-text card-text">
-							A single-page app to create world cup predictions
-						</p>
-					</div>
-
-					<div class="card-sm">
-						<div class ="sm-header card-header"> Vosto </div> 
-						<p class="sm-text card-text">
-							Product design for Computer Science TA help app
-						</p>
-					</div>
-				</div>
+			<div class="card-sm">
+				<div class ="sm-header card-header"> QueueSC </div> 
+				<p class="sm-text card-text">
+					A web app to efficiently create and join queues
+				</p>
 			</div>
+
+			<div class="card-sm">
+				<div class ="sm-header card-header"> World Cup Bracket Creator </div> 
+				<p class="sm-text card-text">
+					A single-page app to create world cup predictions
+				</p>
+			</div>
+
+			<!--div class="card-sm">
+				<div class ="sm-header card-header"> Vosto </div> 
+				<p class="sm-text card-text">
+					Product design for Computer Science TA help app
+				</p>
+			</div-->
 		</div>
-
-			
-
-
-		</div>
-
-	   
-	</body>
-</html>
+	</div>
+</div>
