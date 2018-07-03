@@ -21,21 +21,19 @@ As my first solo programming project, in 2014, I created a simple Java program w
 
 A few weeks ago, I found myself in a similar place. As I spend this summer learning new web development skills and with the 2018 World Cup right around the corner, this project was at an amazing intersection of my passions.
 
-As you can see on Github, this is a simple React app!
+As you can see on Github, this is a simple React app, set up using create-react-app.
 
 ### Challenges
 The main challenge of this application was making it compatible and easy to use across devices. Using CSS media queries, the website should work well on phones, tablets, laptops, and desktops.
 
-Additionally, the sharing functionality was tough to conceptualize as I wasn't sure of how someone might use this - I opted for plain text that could be easily read, parsed, and/or put into an Excel file.
+Additionally, the sharing functionality was tough to conceptualize as I wasn't sure of exact use cases - I opted for plain text that could be easily read, parsed, and/or put into an Excel file, which is how I used it.
 
 ### Successes
 I was able to build the core functionality in only two days, which felt great, considering I had only been working with React for a couple weeks. 
 
-Another success was being able to implement the features I wanted with a simple, minimalist design! 
-
-Friends and family used this for our bracket prediction pool, which went very well! 
+Another success was implementing all the features I wanted with a simple, minimalist design - friends and family  used this for our bracket prediction pool and it went smoothly!
 
 ### Notes
 Due to an issue with emojis, it seems like they only work on Apple devices! Fixing this soon. 
 
-(I also wasn't able to find the England flag emoji and opted for the UK flag, as no other UK teams are at this world cup)
+(I also was not able to find the English flag emoji and opted for the UK flag, as no other UK teams are at this world cup)
