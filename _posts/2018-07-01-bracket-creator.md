@@ -10,7 +10,7 @@ permalink: "bracket-creator.html"
 
 ![Bracket Creator Screenshot](/assets/post-assets/bracket-creator/screen.png)
 
-[Github Link Repo](https://github.com/anquetil/wc-bracket-creator)
+[Github](https://github.com/anquetil/wc-bracket-creator)
 |
 [Demo](/wc-bracket-creator)
 
