@@ -47,7 +47,7 @@ h1, h2, h3, body {
 		color: #0039b8; /*darker blue*/
 		font-size: 28px;
 
-		width: 70%;
+		width: 80%;
 		margin: 1.5rem auto 0 auto;
 	}
 
@@ -59,7 +59,7 @@ h1, h2, h3, body {
 		font-size: 16px;
 		line-height: 1.7;
 
-		width: 70%;
+		width: 80%;
 		margin: 0.5rem auto .5rem auto;
 
 	}
@@ -87,7 +87,7 @@ a:hover {
 	max-width: 950px;
 
 	margin: 0 auto 2rem auto;
-	padding: 2rem;
+	padding: 2rem 2rem 1.5rem 2rem;
 	box-sizing: border-box;
 
 	background-color: white;
@@ -124,5 +124,32 @@ img {
 }
 
 
+@media only screen and (max-width: 993px){
+	#island {
+		width: 85%;
+	}
+
+	h3, p {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	#island {
+		width: 90%;
+		padding: 2rem 1.5rem 1rem 1.5rem ;
+	}
+
+	h3, p {
+		width: 100%;
+	}
+
+	p {
+		font-size: 15px;
+		margin: .75rem auto;
+	}
+}
+
+/*993, 768, 576 */
 
 
