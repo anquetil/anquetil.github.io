@@ -59,6 +59,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+.cardholder a:hover {
+	text-decoration: none;
+}
+
+.cardholder-sm a {
+	text-decoration: none;
+}
+
 body {
 	/*border-top: 4px solid var(--mainBlue);*/
 
