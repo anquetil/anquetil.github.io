@@ -85,8 +85,17 @@ b {
 	background-color: white;
 }
 
+@media only screen and (max-width: 900px) {
 
+	#all {
+		min-width: 60%;
+	}
+}
 @media only screen and (max-width: 576px) {
+
+	#all {
+		min-width: 80%;
+	}
 
 	#name {
 		font-size: 45px;
@@ -95,6 +104,8 @@ b {
 		margin-bottom: 1rem;
 	}
 }
+
+
 
 
 
