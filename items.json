@@ -1,0 +1,118 @@
+[
+        {
+            "title": "Play Games 🕹",
+            "cards": [
+                {
+                    "name": "Cool Math Games",
+                    "link": "https://www.coolmathgames.com/",
+                    "image": "assets/math.png",
+                    "caption": "A high school classic!"
+                },
+                {
+                    "name": "NYT Crossword",
+                    "link": "https://www.nytimes.com/crosswords",
+                    "image": "assets/nyt.png",
+                    "caption": "Learn some new things!"
+                },
+                {
+                    "name": "Miniclip",
+                    "link": "https://miniclip.com",
+                    "image": "assets/miniclip.png",
+                    "caption": "Take it all the way back"
+                },
+                {
+                    "name": "Typeracer",
+                    "link": "https://play.typeracer.com/",
+                    "image": "assets/typeracer.png",
+                    "caption": "Speed up your typing while seeming busy"
+                },
+                {
+                    "name": "Cookie Clicker",
+                    "link": "https://orteil.dashnet.org/cookieclicker/",
+                    "image": "assets/cookie.png",
+                    "caption": "A fun, passive, clicking game!"
+                },
+                {
+                    "name": "Sporcle",
+                    "link": "https://sporcle.com/",
+                    "image": "assets/sporcle.png",
+                    "caption": "Test your trivia skills"
+                }
+            ] 
+        },
+        {
+            "title": "Hang with Friends (virtually) 👫",
+            "cards": [
+                {
+                    "name": "The Wiki Game",
+                    "link": "https://www.thewikigame.com/",
+                    "image": "assets/wikipedia.png",
+                    "caption": "Get from one page to another as fast as possible. "
+                },
+                {
+                    "name": "Club Penguin",
+                    "link": "https://cponline.pw/",
+                    "image": "assets/penguin.png",
+                    "caption": "You know you miss it!"
+                },
+                {
+                    "name": "Tlk",
+                    "link": "https://tlk.io/onlinerecess",
+                    "image": "assets/tlk.png",
+                    "caption": "Join the Tlk chat!"
+                },
+                {
+                    "name": "Skribbl",
+                    "link": "https://skribbl.io/",
+                    "image": "assets/skribbl.png",
+                    "caption": "Pictionary, but online"
+                }
+            ] 
+        },
+        {
+            "title": "Prepare for (many) Board Game Nights 🎲",
+            "cards": [
+                {
+                    "name": "Pandemic",
+                    "link": "https://www.amazon.com/Z-Man-Games-ZM7101-Pandemic/dp/B00A2HD40E/",
+                    "image": "assets/pandemic.png",
+                    "caption": "Very topical, but a great game"
+                },
+                {
+                    "name": "Catan",
+                    "link": "https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ",
+                    "image": "assets/catan.png",
+                    "caption": "Get ready to challenge your friendships!"
+                },
+                {
+                    "name": "Sorry!",
+                    "link": "https://www.amazon.com/Hasbro-Gaming-A5065-Sorry-Game/dp/B076HK9H7Z/",
+                    "image": "assets/sorry.png",
+                    "caption": "Keep it simple"
+                },
+                {
+                    "name": "Ticket To Ride",
+                    "link": "https://www.amazon.com/Kindle-eBooks/",
+                    "image": "assets/ticket.png",
+                    "caption": "Live out your travel fantasies"
+                }
+            ] 
+        },
+        {
+            "title": "Stay Educated 📕",
+            "cards": [
+                {
+                    "name": "CDC Coronavirus Information",
+                    "link": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+                    "image": "assets/cdc.png",
+                    "caption": "Stay informed!"
+                },
+                {
+                    "name": "NY Times Coverage",
+                    "link": "https://www.nytimes.com/news-event/coronavirus",
+                    "image": "assets/ny-times.png",
+                    "caption": "Follow the latest updates"
+                }
+            ] 
+        }
+    ]
