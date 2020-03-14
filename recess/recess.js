@@ -1,5 +1,5 @@
 
-$.getJSON("checklist.json", function(data) {
+$.getJSON("recess/checklist.json", function(data) {
     var html = '';
     var i = 0;
     $.each(data, function(key, value){
@@ -21,7 +21,7 @@ $.getJSON("checklist.json", function(data) {
 });
 
 
-$.getJSON("items.json", function(data) {
+$.getJSON("recess/items.json", function(data) {
     var html = '';
     $.each(data, function(key, value){
         html += '<div class="subsection-title">'+value.title+'</div>';
@@ -29,7 +29,7 @@ $.getJSON("items.json", function(data) {
         console.log(value.cards);
         value.cards.forEach(function(cardvalue){
             html += '<div class="mini-card">';
-            html += '<a class="card-image" target="_blank" href="'+cardvalue.link+'"><img class="card-image" src="'+cardvalue.image+'"></a>';
+            html += '<a class="card-image" target="_blank" href="'+cardvalue.link+'"><img class="card-image" src="recess/'+cardvalue.image+'"></a>';
             html += '<a class="card-label" target="_blank" href="'+cardvalue.link+'">'+cardvalue.name+'</a>';
             html += '<div class="card-label-caption">'+cardvalue.caption+'</div></div>';
 
