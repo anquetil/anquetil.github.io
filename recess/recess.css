@@ -104,25 +104,21 @@ h2 a {
     margin: 0 auto;
 }
 
-#left {
-    width: 25%;
-    margin: 1%;
-    min-width: 200px;
-}
-
-#left-top{
-    margin-bottom: 5%;
-}
-
-#left-bottom{
+#hover-card{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 20%;
+    
     color: navy;
     font-size: 20px;
     text-align: center;
+
 }
 
-#right {
+#main-content {
     width: 62%;
-    margin: 1%;
+    margin: 1% auto;
     min-width: 400px;
     padding: 0px 30px 25px 30px;
 }
@@ -137,7 +133,7 @@ h2 a {
     letter-spacing: 2px;
 }
 
-#right .card-heading {
+#main-content .card-heading {
     color:navy;
     font-weight:bold;
     font-size: 45px;
@@ -154,34 +150,6 @@ h2 a {
     padding: 15px;
 }
 
-
-
-#bingo {
-    display: none;
-    color: #00f729;
-    font-size: 40px;
-    width: 95%;
-    margin: 5px;
-    text-align: center;
-    font-weight: bolder;
-}
-
-
-
-#checkboxes {
-    margin-top: 20px;
-    display: block;
-}
-
-.checkbox-label {
-    font-weight: 100;
-    padding-left: 10px;
-}
-
-
-
-
-
 .subsection-title {
     font-size: 25px;
     color: rgb(7, 67, 136);
@@ -190,74 +158,18 @@ h2 a {
     border-bottom: 2px solid rgb(57, 137, 228);
 }
 
-/* OLD
-
-.mini-cards{
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.mini-card {
-    width:90%;
-    display: block;
-    margin: 25px 0;
-}
-
-
-
-.card-label {
-    color: #666;
-    display:block;
-    min-width: 100%;
-    font-weight: 300;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.card-label-caption {
-    color: #888;
-    display:block;
-    min-width: 100%;
-    font-size:20px;
-    font-weight: lighter;
-    font-style: italic;
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-
-.card-label:hover {
-    color: #444;
-    text-decoration: underline;
-}
-
-.card-image {
-    max-width: 100%;
-    max-height: auto;
-    border-radius: 9px;
-    position: relative;
-    transition: .35s;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-}
-
-.card-image:hover {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.55);
-}
-*/
-
-
 .mini-cards{
     width: 100%;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 
 .mini-card {
     width: 175px;
     display: block;
-    margin: 25px 20px 0 20px;
+    justify-items: center;
+    margin-top: 25px;
 }
 
 .card-label {
@@ -304,4 +216,11 @@ img.card-image{
 
 img.card-image:hover{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width:1000px) { 
+    .mini-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }

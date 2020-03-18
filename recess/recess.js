@@ -1,5 +1,5 @@
 
-$.getJSON("recess/checklist.json", function(data) {
+/*$.getJSON("recess/checklist.json", function(data) {
     var html = '';
     var i = 0;
     $.each(data, function(key, value){
@@ -18,7 +18,7 @@ $.getJSON("recess/checklist.json", function(data) {
         }
     });
 
-});
+});*/
 
 
 $.getJSON("recess/items.json", function(data) {
@@ -36,4 +36,4 @@ $.getJSON("recess/items.json", function(data) {
         })
         html += '</div>';
     });
-$('#right-content').html(html)});
+$('#main-content').html(html)});
