@@ -1,78 +1,112 @@
+<!DOCTYPE html>
+
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="home.css"/>
 
-        <title>Martin's Website!</title>
+<head>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159977547-4"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <title>martin</title>
 
-        gtag('config', 'UA-159977547-4');
-        </script>
 
-    </head>
+     <style>
+        html, body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Roboto','Helvetica Neue', sans-serif;
 
-</html>
+            min-width: 100%;
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #212529;
+        }
 
-<body>
-    <div id="container">
-        <div id="greeting">
-            this is <b style="font-weight: 600;">martin anquetil</b>'s website
-        </div>
+        #content {
+            width: 80%;
+            margin: 50px auto;
+        }
 
-        <div id="paragraph">
-            hello internet visitor!
-            </br></br>
-            I'm an incoming APM at Google! I go to USC!
-            </br></br>
-            I'm working on a few projects -
-        </div>
+        #name {
+            font-weight: 500;
+            color: #FF3535;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
 
-        <a href="https://bit.ly/college-pm"  target="_blank" id="project">
-            The College Product Manager Guide &rarr;
-        </a>
+        #content {
 
-        <div id="project-tagline">
-            Everything you need to know about getting into PM!
-        </div>
+            font-size: 18px;
+            font-weight: 300;
+        }
 
-        <a href="http://joinsherpa.co" target="_blank" id="project">
-            Sherpa &rarr;
-        </a>
+        #content a {
+            color: #909294;
+        }
 
-        <div id="project-tagline">
-            A mentorship program for ambitious students!
-        </div>
+        #content a:hover {
+            color: 	#212529;
+        }
 
-        <!--a href="/recess.html" target="_blank" id="project">
-            Online Recess &rarr;
-        </a>
+        b {
+            font-weight: bold;
+        }
 
-        <div id="project-tagline">
-            Find things to do during boring online lectures
-        </div-->
 
-        <a href="https://arenas.substack.com/welcome"  target="_blank" id="project">
-            The Arena &rarr;
-        </a>
 
-        <div id="project-tagline">
-            A newsletter of career advice for college students!
-        </div>
 
+
+        @media (max-width: 450px){
+            #content {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 16px;
+            }
+
+
+        }
 
         
 
 
+     </style>
 
+</head>
 
+<body>
+    <div id="content">
+ 
+        <div id="name">Martin Anquetil</div>
+
+        Hey! I'm Martin. 
+        </br></br>
+        I'm an Associate Product Manager at Google. I recently graduated from USC!
+        </br></br>
+        Some things I like:
+        
+        <div style="margin: 0 0 0 15px">
+            </br><span style= "word-spacing: 6px">🧘‍♂️  mindfulness</span> and personal growth
+            </br><span style= "word-spacing: 6px">🌌  existentialism</span>
+            </br><span style= "word-spacing: 6px">📊  spreadsheets</span>
+            </br><span style= "word-spacing: 6px">🏎  Formula</span> 1
+        </div>
+    
+        </br>
+        I'm currently learning more about the <a href="https://twitter.com/anquetil/status/1287268389317046274" target="_blank">passion economy</a> and personal finance!
+        </br></br>
+        I want to help people lead meaningful, happy lives.
+        </br></br>
+        Recently, I worked on a newsletter of advice for college underclassmen and a tech mentorship platform.
+        </br></br>
+
+        <i><b>Let's stay in touch!</b> (here's my <a href="http://twitter.com/anquetil/" target="_blank">Twitter</a> and my <a href="http://anquetil.substack.com" target="_blank">newsletter</a>)</i>
+    
+
+        
+        
     </div>
 
-
-
+    
 </body>
+</html> 
